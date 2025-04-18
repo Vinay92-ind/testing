@@ -31,7 +31,7 @@ public class MathWorker implements Runnable {
             if (random.nextInt(10) > 5) {
                 bigDecimal = bigDecimal.add(BigDecimal.valueOf(value));
             } else {
-                bigDecimal = bigDecimal.subtract(BigDecimal.valueOf(value));
+                bigDecimal = bigDecimal.subtract(BigDecimal.valueOf(value1));
             }
         }
     }
