@@ -20,4 +20,5 @@ public interface SampleApplication {
     void start();
 
     String toString();
+    Hello world!
 }
